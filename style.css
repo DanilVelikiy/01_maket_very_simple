@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #e2e7ec;
+}
+.container {
+	width: 1120px;
+	margin: 0 auto;
+	padding-top: 91px;
+}
+.fantastic {
+	width: 740px;
+	height: 540px;
+	float: left;
+	margin: 0 20px 20px 0;
+	/*background: linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);*/
+	background: url(img/fantastic.jpg), linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+.white_block,
+.white_block_first  {
+	background-color: #ffffff;
+	width: 360px;
+	height: 540px;
+	float:left;
+	margin-right: 20px;
+	position: relative;
+}
+.container .white_block_first {
+	margin-right: 0;
+}
+.img_white_block {
+	width: 360px;
+}
+.img_fantastic {
+	width: 740px;
+}
+.fantastic div {
+	color: #fff;
+	margin-top: 397px;
+	margin-left: 46px;
+	
+}
+.fantastic h3 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: left;
+	margin-top: 23px;
+	margin-left: 43px;
+	width: 433px;
+	text-transform: uppercase;
+}
+.content_text {
+	padding: 28px;
+}
+.text_block_top {
+	margin: 0;
+	color: #818181;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+	height: 13px;
+}
+.conten_text h3{
+	color: #1d1c1c;
+	font-size: 22px;
+	font-weight: 800;
+	font-height: 30px;
+	text-transform: uppercase;
+}
+.content_text img{
+	width: 50px;
+	margin-top: 40px;
+	position: absolute;
+	bottom: 25px;
+	left: 28px;
+}
